@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.nav-link {
+    color: #0D0A19 !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 42px;
+}
+
+.sing-up {
+    color: #9A9EA7 !important;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sing-up img {
+    background-color: #F5F6F7;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+
+.sectio1 {
+    background: url('../img/Rectangle.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    width: 100%;
+    position: relative;
+}
+
+.sectio1 h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 74px;
+    /* 115.625% */
+    padding-top: 149px;
+}
+
+.sectio1 .sectio1-p {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.topFooterSection {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 3px 4px 0px rgba(153, 155, 168, 0.2);
+    max-width: 945px;
+    height: 100px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -60px;
+    left: 50%;
+    z-index: 999;
+    width: 98%;
+    transform: translateX(-50%);
+}
+
+.topFooterSection p {
+    color: var(--greys-9-a-9-ea-7, #9A9EA7);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.topFooterSection .form-select {
+    color: #0D0A19;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    margin-top: -15px;
+}
+
+.withoutP{
+    margin-top: 27px !important;
+}
+
+.btn.header-btn{
+    border-radius: 10px;
+background: #7963f8 ;
+color: #fff ;
+padding: 7px 15px;
+font-weight: bold;
+}
+
+.header-btn img{
+    margin-top: -2px;
+    margin-right: 6px;
+}
+
+@media all and (max-width: 767px){
+    .sectio1 h1{
+        font-size: 38px;
+    }
+ .sectio1 .sectio1-p{
+        font-size: 16px;
+    }
+
+    .topFooterSection{
+        height: 100px;
+    }
+    .btn.header-btn{
+        width: 95%;
+        padding: 17px;
+        margin: auto;
+    }
+}
