@@ -14,6 +14,10 @@ a {
     text-decoration-line: none;
 }
 
+.section-padding{
+    padding: 50px 30px;
+}
+
 .nav-link {
     color: #0D0A19 !important;
     font-size: 16px;
@@ -114,6 +118,67 @@ font-weight: bold;
     margin-top: -2px;
     margin-right: 6px;
 }
+.border-right{
+    position: relative;
+}
+
+.border-right::after{
+    position: absolute;
+    width: 2px;
+    height: 40px;
+    content: '';
+    background: #d3d3d3;
+    right: 0;
+    top: 20px;
+}
+
+.withoutP::after{
+    top: 0;
+}
+
+.sectio2{
+    margin-top: 120px;
+}
+
+.sectio3 h3{
+    color: #0D0A19;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+p.col-text{
+    color: #9A9EA7 ;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sectio3 h4{
+    color: #0D0A19;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.btn.btn1{
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+border-radius: 10px;
+background: #998dde;
+color: #fff;
+}
+.btn.btn2{
+text-align: center;
+font-size: 14px;
+font-weight: 700;
+border-radius: 10px;
+background: #7963F0;
+color: #fff;
+}
+
+.card{
+    border: none !important;
+}
 
 @media all and (max-width: 767px){
     .sectio1 h1{
@@ -130,5 +195,16 @@ font-weight: bold;
         width: 95%;
         padding: 17px;
         margin: auto;
+    }
+    .sectio1 h1 {
+        line-height: 40px;
+    }
+
+    .sectio2{
+        margin-top: 320px;
+    }
+
+    .sectio2 img{
+        margin-top: 20px;
     }
 }
